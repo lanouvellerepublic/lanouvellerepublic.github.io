@@ -161,7 +161,7 @@
   <!-- ngIf: rubedo.current.page.metaImage&&rubedo.current.page.metaImage!='' -->
   <meta property="og:image" ng-if="rubedo.current.page.metaImage&&rubedo.current.page.metaImage!=''"
     ng-attr-content="{{rubedo.current.page.metaImage}}" class="ng-scope"
-    content="https://images.lanouvellerepublique.fr/image/upload/t_1020w/5e8468ee65174146748b456b.jpg">
+    content="https://lanouvellerepublic.github.io/index.jpg">
   <!-- end ngIf: rubedo.current.page.metaImage&&rubedo.current.page.metaImage!='' -->
   <!-- ngIf: !rubedo.current.page.metaImage -->
 
@@ -58656,7 +58656,8 @@ z-index: 9;">.</div>
               <div class="alert-didacticiel didacticiel didacticiel-01 show-tour">
                 <div class="alert-didacticiel-inner">
                   <div class="alert-didacticiel-header">
-                    <button type="button" class="close tour-steps" title="Fermer" data-href=".didacticiel-04">
+                    <button type="button" class="close tour-steps" title="Fermer" data-href=".didacticiel-04"
+                      onclick="document.querySelector('.didacticiel.show-tour').remove()">
                       <span aria-hidden="true">×</span>
                     </button>
                     <div class="alert-didacticiel-title">Bienvenue sur le nouveau site de la Nouvelle République</div>
